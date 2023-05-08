@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* utilities */
+
+.bg_darkblue {
+    background-color: rgb(44, 62, 80);
+}
+
+.h_100 {
+    height: 100px;
+}
+
+.bg_red {
+    background-color: red;
+}
