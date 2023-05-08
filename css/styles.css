@@ -14,6 +14,18 @@
     height: 100px;
 }
 
+.h_200 {
+    height: 200px;
+}
+
+.h_400 {
+    height: 400px;
+}
+
 .bg_red {
     background-color: red;
+}
+
+.bg_green {
+    background-color: rgb(26, 188, 156);
 }
