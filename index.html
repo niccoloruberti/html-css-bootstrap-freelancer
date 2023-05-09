@@ -31,13 +31,13 @@
                               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                   <li class="nav-item">
-                                    <a class="nav-link link_style" href="#">portfolio</a>
+                                    <a class="nav-link link_style" href="#portfolio">portfolio</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link link_style" href="#">about</a>
+                                    <a class="nav-link link_style" href="#about">about</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link link_style" href="#">contact</a>
+                                    <a class="nav-link link_style" href="#contact_me">contact</a>
                                   </li>
                                 </ul>
                               </div>
@@ -199,19 +199,41 @@
     <!-- footer -->
     <footer>
         <!-- sezione info -->
-        <section class="bg_blue">
+        <section id="info" class="bg_blue">
             <div class="container">
                 <div class="row">
-                    <div class="col-10 col-lg-9 mx-auto">
-                        <div class="row">
+                    <div class="col-10 mx-auto">
+                        <div class="row justify-content-between">
                             <div class="col-12 col-md-4">
-                                <div class="content m-2 h_200 bg_red"></div>
+                                <div class="content m-2">
+                                    <h6 class="text-center text-white fs-6">LOCATION</h6>
+                                    <p class="text-center text-white">2215 John Daniel Drive Clark, MO 54243</p>
+                                </div>
                             </div>
                             <div class="col-12 col-md-4">
-                                <div class="content m-2 h_200 bg_red"></div>
+                                <div class="content m-2 d-flex flex-column align-items-center">
+                                    <h6 class="text-white fs-6">AROUND THE WEB</h6>
+                                    <ul class="d-flex">
+                                        <li>
+                                            <i class="fab fa-facebook-f"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-twitter"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="col-12 col-md-4">
-                                <div class="content m-2 h_200 bg_red"></div>
+                                <div class="content m-2">
+                                    <h6 class="text-center text-white fs-6">ABOUT FREELANCER</h6>
+                                    <p class="text-center text-white">Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -219,11 +241,13 @@
             </div>
         </section>
         <!-- sezione copyright -->
-        <section class="bg_darkblue">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6 col-lg-3 mx-auto">
-                        <div class="content m-2 h_100 bg_red"></div>
+        <section id="copyright" class="bg_darkblue">
+            <div class="container d-flex align-items-center justify-content-center">
+                <div class="row w-100">
+                    <div class="col-6 mx-auto">
+                        <div class="content text-center">
+                            <span class=" text-white">Copyright <i class="fas fa-copyright"></i> Your Website 2019</span>
+                        </div>
                     </div>
                 </div>
             </div>

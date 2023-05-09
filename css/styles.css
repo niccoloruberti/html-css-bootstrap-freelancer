@@ -173,3 +173,27 @@ header .navbar i {
     margin: 10px 0;
     width: 15vw;
 }
+
+/* footer */
+
+#info ul {
+    padding-left: 0;
+}
+
+#info li {
+    list-style-type: none;
+    color: white;
+    margin: 0 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+
+#info p a {
+    text-decoration: none;
+    color: rgb(26, 188, 156);
+}
+
+#copyright .container {
+    height: 100px;
+}
