@@ -75,3 +75,26 @@ header .navbar i {
 #start_bootstrap .grechina {
     width: 80%;
 }
+
+/* seconda sezione, portfolio */
+
+#portfolio h2 {
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+#portfolio span {
+    height: 3px;
+    background-color: rgb(51, 51, 51);
+    width: 30%;
+}
+
+#portfolio i {
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+}
+
+#portfolio .grechina {
+    width: 50%;
+}
