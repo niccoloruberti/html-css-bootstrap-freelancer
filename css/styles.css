@@ -33,3 +33,18 @@
 .bg_green {
     background-color: rgb(26, 188, 156);
 }
+
+.link_style {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.border_white {
+    border: 1px solid #fff;
+}
+
+/* header */
+
+header .navbar i {
+    color: #fff;
+}
