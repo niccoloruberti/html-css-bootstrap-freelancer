@@ -48,3 +48,30 @@
 header .navbar i {
     color: #fff;
 }
+
+/* prima sezione, start bootstrap */
+
+#start_bootstrap img {
+    width: 50%;
+}
+
+#start_bootstrap h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+#start_bootstrap span {
+    height: 3px;
+    background-color: #fff;
+    width: 30%;
+}
+
+#start_bootstrap i {
+    color: white;
+    font-size: 20px;
+}
+
+#start_bootstrap .grechina {
+    width: 80%;
+}
